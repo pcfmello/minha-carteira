@@ -1,9 +1,15 @@
 import React from "react";
 
-// import { Container } from './styles';
+import ContentHeader from '../../components/ContentHeader'
+
+import * as S from './styles';
 
 const Dashboard: React.FC = () => {
-  return <h1>Dashboard</h1>;
+  return (
+    <S.Container>
+      <ContentHeader />
+    </S.Container>
+  );
 };
 
 export default Dashboard;
